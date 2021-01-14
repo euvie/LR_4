@@ -3,7 +3,7 @@
 #include <Analyzer.hpp>
 #include <iostream>
 
-using namespace boost::filesystem;
+using namespace boost::filesystem; //using namespace
 
 Analyzer::Analyzer(const boost::filesystem::path path):
     path_to_FTP(path)
